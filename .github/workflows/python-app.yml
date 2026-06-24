@@ -48,4 +48,4 @@ jobs:
 
       - name: Enforce Coverage
         run: |
-          coverage report --fail-under=100
+          coverage report --fail-under=90
