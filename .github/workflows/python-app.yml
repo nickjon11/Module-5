@@ -36,6 +36,11 @@ jobs:
           pip install pandas
           pip install python-dotenv
           pip install coverage
+          pip install -r requirements.txt
+          pip install pytest pytest-cov
+        
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
 
       - name: Run Tests
         run: |
