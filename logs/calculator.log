@@ -1,8 +1,0 @@
-2026-07-04 11:30:05,304 - INFO - percent performed with 1.0 and 2.0. Result: 50.0
-2026-07-04 11:30:11,772 - INFO - percent performed with 2.0 and 10.0. Result: 20.0
-2026-07-04 11:30:17,722 - INFO - percent performed with 2.0 and 20.0. Result: 10.0
-2026-07-04 11:30:23,684 - INFO - root performed with 1.0 and 4.0. Result: 1.0
-2026-07-04 11:30:45,151 - INFO - add performed with 1.0 and 6.0. Result: 7.0
-2026-07-04 11:30:50,054 - INFO - power performed with 1.0 and 56.0. Result: 1.0
-2026-07-04 11:31:16,485 - INFO - add performed with 5.0 and 7.0. Result: 12.0
-2026-07-04 11:40:29,547 - INFO - multiply performed with 25.0 and 18.0. Result: 450.0

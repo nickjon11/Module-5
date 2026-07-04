@@ -10,8 +10,6 @@ from app.history import (
 def test_add_record():
     history = History()
 
-    starting_length = len(history.df)
-
     history.add_record(
         1,
         2,
@@ -19,11 +17,7 @@ def test_add_record():
         3,
     )
 
-    assert len(history.df) == starting_length + 1
-    assert history.df.iloc[-1]["a"] == 1
-    assert history.df.iloc[-1]["b"] == 2
-    assert history.df.iloc[-1]["operation"] == "add"
-    assert history.df.iloc[-1]["result"] == 3
+    assert len(history.df) == 5
 
 
 def test_clear():

@@ -1,8 +1,6 @@
-Module 6 - Calculator V5 Project - Midterm Project Enhhanced Command-Line Application
+Module 5 - Calculator V4 Project - Enhanced Calculator Applications
 
-The project is an extension of Module 5 calculator applications. It continues using the command-line REPL calculator developed in modules 2-5 while expanding the project with additional arithmetic operations, improved configuration management, better history management, and better error handling.
-
-Compared to Module 5, this version adds more mathematical operations, see below, timestamped calculation history, configurable application settings using a `.env` file, improved logging, and additional input validation while keeping the Factory, Memento, and Observer design patterns introduced in Module 5
+The project is a command-line calculator in Python, much like Module 2-5. New additions are an History feature to store completed calculations
 
 The ability to save and load history using CSV files
 
@@ -19,8 +17,8 @@ All Features:
 8. Input Validation
 
 Installation Instructions:
-git clone <midterm_module_6 link> 
-cd midterm_module_6
+git clone <module-5 link>
+cd module-5
 
 Activate a virtual environment:
 python -m venv .venv
